@@ -124,4 +124,51 @@
   }
 }
 
+.form-report {
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 91px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__heading {
+    font-family: "Museo black";
+    font-size: 60px;
+    font-weight: 900;
+  }
+
+  &__message {
+    font-family: "Museo regular";
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  &__back,
+  &__article {
+    display: inline-block;
+    text-align: center;
+    font-family: "Museo light";
+    font-weight: 300;
+    height: 49px;
+    line-height: 49px;
+  }
+
+  &__back {
+    width: 238px;
+    margin-top: 67px;
+    margin-bottom: 69px;
+    background-color: white;
+    color: #333946;
+  }
+
+  &__article {
+    width: 484px;
+    background-color: #3d4e74;;
+    color: white;
+  }
+}
 
